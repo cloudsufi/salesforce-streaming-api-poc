@@ -1,0 +1,139 @@
+2026-06-24 18:39:37.681 [main] INFO  c.e.s.SalesforceStreamingClient - Salesforce Streaming API test harness starting...
+2026-06-24 18:39:37.688 [main] INFO  c.e.s.SalesforceStreamingClient - Loaded local.properties
+2026-06-24 18:39:38.457 [main] INFO  c.e.s.SalesforceStreamingClient - MapDB opened at ./logs/test-events.mapdb
+2026-06-24 18:39:38.462 [event-reader] INFO  c.e.s.SalesforceStreamingClient - Reader thread started.
+2026-06-24 18:39:38.467 [main] INFO  c.e.s.auth.SalesforceAuthManager - Obtaining/refreshing Salesforce bearer token...
+2026-06-24 18:39:39.885 [main] INFO  c.e.s.auth.SalesforceAuthManager - Token obtained. Instance URL: https://orgfarm-f381d94af9-dev-ed.develop.my.salesforce.com
+2026-06-24 18:39:39.889 [main] INFO  c.e.s.SalesforceStreamingClient - Authenticated. Instance URL: https://orgfarm-f381d94af9-dev-ed.develop.my.salesforce.com
+2026-06-24 18:39:40.036 [main] INFO  c.s.emp.connector.EmpConnector - EmpConnector connecting
+2026-06-24 18:39:41.378 [main] INFO  c.e.s.SalesforceStreamingClient - CometD handshake complete. Subscribing to channel: /data/AccountChangeEvent
+2026-06-24 18:39:41.705 [main] INFO  c.e.s.SalesforceStreamingClient - Subscribed: Subscription [/data/AccountChangeEvent:-1]
+2026-06-24 18:39:41.707 [main] INFO  c.e.s.SalesforceStreamingClient - Test harness running. Press Ctrl-C to stop.
+2026-06-24 18:39:48.474 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:39:58.480 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:40:08.487 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:40:18.502 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:40:28.514 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:40:38.522 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:40:48.539 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:40:58.550 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:41:08.553 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:41:18.566 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:41:28.580 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:41:38.589 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:41:48.597 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:41:58.600 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:42:08.614 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:42:18.617 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:42:28.627 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:42:38.641 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:42:48.644 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:42:58.648 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:43:08.658 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:43:18.664 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:43:28.672 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:43:38.691 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:43:48.706 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:43:58.718 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:44:08.728 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:44:18.729 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:44:28.743 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:44:38.758 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:44:48.760 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:44:58.765 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:45:08.780 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:45:18.795 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:45:28.797 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:45:38.802 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:45:48.818 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:45:58.824 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:46:08.839 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:46:18.850 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:46:28.864 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:46:38.879 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:46:48.887 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:46:58.890 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:47:08.894 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:47:18.906 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:47:28.917 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:47:38.928 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:47:48.959 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:47:58.969 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:48:08.975 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:48:18.981 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:48:28.996 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:48:39.009 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:48:49.021 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:48:59.030 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:49:09.038 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:49:19.051 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:49:29.054 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:49:39.070 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:49:49.078 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:49:59.088 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:50:09.092 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:50:19.095 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:50:29.098 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:50:39.111 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:50:49.118 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:50:59.132 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:51:09.144 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:51:19.158 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:51:29.166 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:51:39.182 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:51:49.188 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:51:59.196 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:52:09.202 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:52:19.211 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:52:29.223 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:52:39.226 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:52:49.231 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:52:59.242 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:53:09.258 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:53:19.269 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:53:29.279 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:53:39.294 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:53:49.299 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:53:59.314 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:54:09.318 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:54:19.332 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:54:29.335 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:54:39.348 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:54:49.387 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:54:59.388 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:55:09.392 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:55:19.407 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:55:29.418 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:55:39.424 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:55:49.437 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:55:59.452 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:56:09.464 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:56:19.479 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:56:29.494 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:56:39.507 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:56:49.509 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:56:59.515 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:57:09.548 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:57:19.564 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:57:29.579 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:57:39.581 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:57:49.591 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:57:59.602 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:58:09.612 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:58:19.615 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:58:29.622 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:58:39.623 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:58:49.634 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:58:59.635 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 18:59:09.644 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 19:03:33.922 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 19:03:35.155 [HttpClient@42d236fb-51] INFO  c.s.emp.connector.EmpConnector - Disconnecting Bayeux Client in EmpConnector
+2026-06-24 19:03:35.236 [HttpClient@42d236fb-51] INFO  c.s.emp.connector.EmpConnector - EmpConnector connecting
+2026-06-24 19:03:43.927 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 19:03:53.940 [event-reader] INFO  c.e.s.SalesforceStreamingClient - no events
+2026-06-24 19:04:00.116 [shutdown-hook] INFO  c.e.s.SalesforceStreamingClient - Shutdown signal received. Stopping connector and reader thread...
+2026-06-24 19:04:00.122 [shutdown-hook] INFO  c.s.emp.connector.EmpConnector - Disconnecting Bayeux Client in EmpConnector
+2026-06-24 19:04:00.123 [shutdown-hook] INFO  c.s.emp.connector.EmpConnector - Stopping the http client!
+2026-06-24 19:04:00.213 [event-reader] INFO  c.e.s.SalesforceStreamingClient - Reader thread interrupted – exiting.
+2026-06-24 19:04:00.213 [event-reader] INFO  c.e.s.SalesforceStreamingClient - Reader thread stopped.
+2026-06-24 19:04:00.214 [main] INFO  c.e.s.SalesforceStreamingClient - Salesforce Streaming Client stopped cleanly.

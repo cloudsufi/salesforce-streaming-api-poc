@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SalesforceStreamingClient" type="Application" factoryName="Application">
+    <envs>
+      <env name="SF_LOGIN_URL" value="https://login.salesforce.com" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.enterprise.salesforce.SalesforceStreamingClient" />
+    <module name="streaming-api-poc" />
+    <option name="VM_PARAMETERS" value="-Dsf.loginUrl=https://login.salesforce.com -Dsf.clientId=YOUR_CLIENT_ID -Dsf.clientSecret=YOUR_CLIENT_SECRET -Dsf.username=your@org.com -Dsf.password=yourPasswordPlusSecurityToken -Dsf.checkpointFile=./logs/replay-checkpoints.properties" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

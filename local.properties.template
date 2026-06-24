@@ -1,0 +1,32 @@
+# ============================================================
+# Salesforce CDC POC – Local Configuration Template
+# ============================================================
+# Copy this file to local.properties and fill in your values.
+# local.properties is in .gitignore — NEVER commit real secrets.
+#
+# How to use:
+#   In IntelliJ: Edit Run Configuration → VM Options, paste each line as:
+#   -Dsf.loginUrl=https://login.salesforce.com  etc.
+#
+#   Or export as env vars:
+#   export SF_CLIENT_ID=...  export SF_CLIENT_SECRET=... etc.
+# ============================================================
+
+# Salesforce org login URL
+# Production  : https://login.salesforce.com
+# Sandbox     : https://test.salesforce.com
+sf.loginUrl=https://login.salesforce.com
+
+# Connected App credentials (Setup → App Manager → your app → View → Consumer Key/Secret)
+sf.clientId=YOUR_CONNECTED_APP_CONSUMER_KEY
+sf.clientSecret=YOUR_CONNECTED_APP_CONSUMER_SECRET
+
+# Salesforce user credentials
+# IMPORTANT: password must be: actualPassword + securityToken (no space, no separator)
+# Get your security token: My Settings → Personal → Reset My Security Token
+sf.username=your.user@yourorg.com
+sf.password=yourPasswordYourSecurityToken
+
+# Path where replay IDs will be checkpointed
+# The file is created automatically on first run
+sf.checkpointFile=./logs/replay-checkpoints.properties

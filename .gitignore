@@ -1,0 +1,23 @@
+# Maven
+target/
+*.class
+
+# IntelliJ
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+*.iml
+*.iws
+out/
+
+# Checkpoint & logs (runtime generated)
+logs/*.log
+logs/replay-checkpoints.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets – NEVER commit credentials
+.env
+local.properties
