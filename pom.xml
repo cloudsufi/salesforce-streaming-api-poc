@@ -19,7 +19,7 @@
         <emp-connector.version>1.0.0</emp-connector.version>
         <slf4j.version>2.0.9</slf4j.version>
         <logback.version>1.4.11</logback.version>
-        <jackson.version>2.15.2</jackson.version>
+        <jackson.version>2.18.11</jackson.version>
         <mapdb.version>3.0.10</mapdb.version>
     </properties>
 
